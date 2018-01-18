@@ -54,21 +54,53 @@
       <label class="form-control-label" for="reasonforvisit">Reason for today's visit</label>
       <textarea class="form-control" id="reasonforvisit" rows="3"></textarea>
     </div>
-
-    <div class="form-group">
-      <label class="form-control-label">Has your pet been spayed or neutered?</label>
-      <label class="form-control-label"><input type="radio" name="spayneut" value="yes" checked> Yes</label>
-      <label class="form-control-label"><input type="radio" name="spayneut" value="no"> No</label>
-    </div>
-
-    <div class="form-group">
-      <label class="form-control-label">Has the pet had any of the following in the past 30 days</label>
-      <label class="form-control-label"><input type="checkbox"> Abdominal pain</label>
-      <label class="form-control-label"><input type="checkbox"> Lack of appetite</label>
-      <label class="form-control-label"><input type="checkbox"> Weakness</label>
-    </div>
-
   </fieldset>
+
+  <fieldset class="form-group">
+
+    <legend>Pet Medical Data</legend>
+
+    <div class="form-group">
+      <label>Has your pet been spayed or neutered?</label>
+
+      <div>
+        <label>
+          <input type="radio" name="spayneut" value="yes" checked> Yes
+        </label>
+      </div><!-- form-check -->
+
+      <div>
+        <label>
+          <input type="radio" name="spayneut" value="no"> No
+        </label>
+      </div><!-- form-check -->
+
+    </div><!-- form-group -->
+
+    <div class="form-group">
+      <label>Has the pet had any of the following in the past 30 days</label>
+
+      <div>
+        <label>
+          <input type="checkbox"> Abdominal pain
+        </label>
+      </div><!-- form-check -->
+
+      <div>
+        <label>
+          <input type="checkbox"> Lack of appetite
+        </label>
+      </div><!-- form-check -->
+
+      <div>
+        <label>
+          <input type="checkbox"> Weakness
+        </label>
+      </div><!-- form-check -->
+    </div><!-- form-group -->
+
+  </fieldset><!-- form-group -->
+
   <button class="btn btn-primary" type="submit">Submit</button>
 </form>
 
